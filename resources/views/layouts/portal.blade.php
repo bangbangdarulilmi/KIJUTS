@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'Dashboard') - Portal HMIF STT Cipasung</title>
 
+    <link rel="icon" type="image/png" href="{{ asset('images/logo-hmif.png') }}">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -23,8 +25,8 @@
             <!-- Sidebar Header -->
             <div class="h-16 flex items-center px-6 border-b border-slate-800">
                 <a href="{{ route('home') }}" class="flex items-center space-x-3">
-                    <div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-sky-500 to-cyan-400 flex items-center justify-center font-extrabold text-slate-950 text-sm">
-                        &lt;/&gt;
+                    <div class="w-9 h-9 rounded-xl bg-slate-900 p-0.5 border border-sky-500/30 flex items-center justify-center overflow-hidden shadow-md shadow-sky-500/10">
+                        <img src="{{ asset('images/logo-hmif.png') }}" alt="Logo HMIF" class="w-full h-full object-contain">
                     </div>
                     <div>
                         <span class="text-sm font-bold tracking-tight text-white block">HMIF Portal</span>
@@ -154,7 +156,9 @@
         <!-- Mobile Header Bar -->
         <header class="md:hidden h-14 bg-slate-950 border-b border-slate-800 flex items-center justify-between px-4 sticky top-0 z-40">
             <a href="{{ route('home') }}" class="flex items-center space-x-2">
-                <div class="w-7 h-7 rounded-lg bg-sky-500 flex items-center justify-center text-slate-950 font-bold text-xs">&lt;/&gt;</div>
+                <div class="w-7 h-7 rounded-lg bg-slate-900 border border-slate-700 flex items-center justify-center overflow-hidden">
+                    <img src="{{ asset('images/logo-hmif.png') }}" alt="Logo HMIF" class="w-full h-full object-contain">
+                </div>
                 <span class="font-bold text-white text-sm">HMIF Portal</span>
             </a>
             <div class="flex items-center space-x-2 text-xs">

@@ -6,6 +6,8 @@
     <title>@yield('title', 'Web Portal HMIF STT Cipasung') - Himpunan Mahasiswa Informatika</title>
     <meta name="description" content="Pusat informasi, administrasi digital, dan kolaborasi mahasiswa Teknik Informatika STT Cipasung.">
 
+    <link rel="icon" type="image/png" href="{{ asset('images/logo-hmif.png') }}">
+
     <!-- Fonts: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,8 +29,8 @@
                 <!-- Logo & Brand -->
                 <div class="flex items-center space-x-3">
                     <a href="{{ route('home') }}" class="flex items-center space-x-3 group">
-                        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-sky-500 to-cyan-400 flex items-center justify-center font-extrabold text-slate-950 text-xl tracking-wider shadow-lg shadow-sky-500/20 group-hover:scale-105 transition-transform">
-                            &lt;/&gt;
+                        <div class="w-10 h-10 rounded-xl bg-slate-800 p-0.5 border border-sky-500/30 flex items-center justify-center shadow-lg shadow-sky-500/20 group-hover:scale-105 transition-transform overflow-hidden">
+                            <img src="{{ asset('images/logo-hmif.png') }}" alt="Logo HMIF STT Cipasung" class="w-full h-full object-contain">
                         </div>
                         <div>
                             <span class="text-lg font-bold tracking-tight text-white group-hover:text-sky-400 transition-colors">HMIF</span>
@@ -109,8 +111,8 @@
                 <!-- Col 1: About HMIF -->
                 <div class="md:col-span-1 space-y-4">
                     <div class="flex items-center space-x-3">
-                        <div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-sky-500 to-cyan-400 flex items-center justify-center font-extrabold text-slate-950 text-base">
-                            &lt;/&gt;
+                        <div class="w-9 h-9 rounded-xl bg-slate-900 p-0.5 border border-slate-700 flex items-center justify-center overflow-hidden">
+                            <img src="{{ asset('images/logo-hmif.png') }}" alt="Logo HMIF STT Cipasung" class="w-full h-full object-contain">
                         </div>
                         <span class="text-white font-bold text-lg tracking-tight">HMIF STTC</span>
                     </div>

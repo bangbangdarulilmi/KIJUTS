@@ -8,8 +8,8 @@
         
         <!-- Header -->
         <div class="text-center">
-            <div class="w-12 h-12 mx-auto rounded-xl bg-gradient-to-tr from-sky-500 to-cyan-400 flex items-center justify-center font-extrabold text-slate-950 text-2xl shadow-lg shadow-sky-500/20">
-                &lt;/&gt;
+            <div class="w-16 h-16 mx-auto rounded-2xl bg-slate-950 p-1.5 border border-slate-700 flex items-center justify-center shadow-xl shadow-sky-500/10">
+                <img src="{{ asset('images/logo-hmif.png') }}" alt="Logo HMIF" class="w-full h-full object-contain">
             </div>
             <h2 class="mt-4 text-2xl font-bold tracking-tight text-white">
                 Pendaftaran Anggota Mahasiswa
